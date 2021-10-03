@@ -4,9 +4,9 @@ import Card from './Card';
 
 function Main(props) {
 
-    const [userName, setUserName]=React.useState([]);
-    const [userDescription, setUserDescription]=React.useState([]);
-     const [userAvatar, setUserAvatar]=React.useState([])
+    const [userName, setUserName]=React.useState('');
+    const [userDescription, setUserDescription]=React.useState('');
+     const [userAvatar, setUserAvatar]=React.useState('')
      const [cards, setCards]= React.useState([])
    
  
@@ -20,7 +20,8 @@ function Main(props) {
     api.getAvatarUserInfo('users/me')
       .then((data) => {  
         setUserinfo(data)      
-      })  
+      }) 
+      .catch((err) => console.log(err)) 
         
     }, []);  
 
@@ -29,6 +30,7 @@ function Main(props) {
         .then((cards) => {
             setCards(cards)
       })
+      .catch((err) => console.log(err))
      }, [])
 
 
@@ -56,8 +58,8 @@ function Main(props) {
             </section>
             <section>
                 <ul className="elements">
-                {cards.map((card, i) => ( 
-            <Card key={i} card={card} onCardClick={props.onCardClick}/> 
+                {cards.map((card) => ( 
+            <Card key={card._id} card={card} onCardClick={props.onCardClick}/> 
             
           ))} 
                
