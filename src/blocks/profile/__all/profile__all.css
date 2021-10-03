@@ -1,0 +1,10 @@
+.profile__all {
+    align-self: center;
+}
+@media screen and (max-width: 600px){
+    .profile__all {
+        max-width: 288px;
+        margin-top: 22px;
+    }
+    
+}

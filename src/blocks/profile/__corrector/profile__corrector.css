@@ -1,0 +1,22 @@
+.profile__corrector {
+    height:24px;
+    width: 24px;
+    border: white solid 1px;
+    display: inline-block;
+    cursor: pointer;
+    align-self: center;
+    background-color: #000000;
+    background-image: url(../../../images/pen.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.profile__corrector:hover {
+    opacity: 0.6;
+}
+@media screen and (max-width: 500px) {
+    .profile__corrector {
+        height: 18px;
+        width: 18px;
+    }   
+}
