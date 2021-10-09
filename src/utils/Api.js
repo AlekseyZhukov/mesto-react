@@ -64,6 +64,13 @@ class Api {
         })
         .then(this._getResponseData)
     }
+    changeLikeCardStatus(id, isLiked) {
+        if (isLiked) {
+          return this.likeRemove(`cards/likes/${id}`);
+        } else {
+          return this.likeAdd(`cards/likes/${id}`);
+        }
+      }
 
     likeAdd(url) {
         return fetch(this.mainUrl + url, {
