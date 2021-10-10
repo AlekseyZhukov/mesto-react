@@ -12,7 +12,7 @@ class Api {
             .then(this._getResponseData)
     }
 
-    getAvatarUserInfo(url) {
+    getUserInfo(url) {
         return fetch(this.mainUrl + url, {
             headers: this.headers
         })
@@ -20,7 +20,7 @@ class Api {
 
     }
 
-    changeUserName(url, data) {
+    changeUserInfo(url, data) {
         return fetch(this.mainUrl + url, {
             method: 'PATCH',
             headers: this.headers,
