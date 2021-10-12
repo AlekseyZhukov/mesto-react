@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mesto-react/static/css/main.9bf23ed5.chunk.css",
+    "main.js": "/mesto-react/static/js/main.a406d4b5.chunk.js",
+    "main.js.map": "/mesto-react/static/js/main.a406d4b5.chunk.js.map",
+    "runtime-main.js": "/mesto-react/static/js/runtime-main.18ccd7a6.js",
+    "runtime-main.js.map": "/mesto-react/static/js/runtime-main.18ccd7a6.js.map",
+    "static/js/2.0b770f15.chunk.js": "/mesto-react/static/js/2.0b770f15.chunk.js",
+    "static/js/2.0b770f15.chunk.js.map": "/mesto-react/static/js/2.0b770f15.chunk.js.map",
+    "static/js/3.8f549c3c.chunk.js": "/mesto-react/static/js/3.8f549c3c.chunk.js",
+    "static/js/3.8f549c3c.chunk.js.map": "/mesto-react/static/js/3.8f549c3c.chunk.js.map",
+    "index.html": "/mesto-react/index.html",
+    "static/css/main.9bf23ed5.chunk.css.map": "/mesto-react/static/css/main.9bf23ed5.chunk.css.map",
+    "static/js/2.0b770f15.chunk.js.LICENSE.txt": "/mesto-react/static/js/2.0b770f15.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mesto-react/static/media/урнацелая.a274c87c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18ccd7a6.js",
+    "static/js/2.0b770f15.chunk.js",
+    "static/css/main.9bf23ed5.chunk.css",
+    "static/js/main.a406d4b5.chunk.js"
+  ]
+}
